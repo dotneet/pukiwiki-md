@@ -28,7 +28,7 @@ function convert_html($lines)
 
 	foreach ( $lines as &$line ) {
 		$matches = array();
-		if ( preg_match('/^\\!([a-zA-Z0-9_]+)(\\(([a-zA-Z0-9 \\t,]*)?\\))?/', $line, $matches) ) {
+		if ( preg_match('/^\\!([a-zA-Z0-9_]+)(\\(([^\\)\\n]*)?\\))?/', $line, $matches) ) {
 			$plugin = $matches[1];
 			if ( exist_plugin_convert($plugin) ) {
 				$name = 'plugin_' . $matches[1] . '_convert';
