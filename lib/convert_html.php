@@ -46,9 +46,8 @@ function convert_html($lines)
 	}
 	unset($line);
 
-	// Markdownの標準的な仕様では行末に2つ以上のスペースががある場合に<br/>を挟むが
-	// GitHubやQiitaの記法にあわせて行末スペースなしで<br/>を挟むようにここでスペースを入れておく
-	$text = implode("  \n", $lines);
+	$text = implode("\n", $lines);
+
 	$parsedown = new \Parsedown();
 	$result = $parsedown->text($text);
 	return $result;

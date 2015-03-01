@@ -1,6 +1,6 @@
 !freeze
 !norelated
-* FrontPage [#qb249ac2]
+#FrontPage
 
 このページは、ページを指定しない時に表示されます。
 
