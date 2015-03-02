@@ -1,9 +1,6 @@
 #pukiwiki-mdについて
 Pukiwiki1.5.0をMarkdown記法に対応させたものです。
 
-##Markdownの記法について
-標準的なMarkdown記法ではパラグラフ中の改行には行末に２つスペースが必要ですが
-GitHubやQiitaの記法に習い、行末のスペースがなくとも改行するようにしています。
 
 ##Pukiwikiの記法について
 
