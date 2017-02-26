@@ -1,15 +1,19 @@
-#pukiwiki-mdについて
-Pukiwiki1.5.0をMarkdown記法に対応させたものです。
+#pukiwiki-md
+This is wiki system folked from Pukiwiki for supporting Markdown notation.
 
 
-##Pukiwikiの記法について
+## Notation
 
-###内部リンクについて
-[[ページ名]]のような内部リンクの記法はPukiwikiと同様に使用できます。
+### Internal Link
 
-###ブロックプラグイン
-Markdownの記法と衝突するためブロックプラグインの呼び出しは'#'ではなく'!'を行頭に付けることで表現します。
+Same as PukiWiki.
 
-###インラインプラグイン
-Pukiwikiと同じ記法で使用できます。
+### Block Plugin
+
+Use '!' instead of '#'.
+
+### Inline Plugin
+
+Same as PukiWiki.
+
 
